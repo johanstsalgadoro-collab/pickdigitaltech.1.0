@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos en Oferta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo pickdigitaltech.jpg" alt="Logo de Pick Digital Tech">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="¿Qué estás buscando?" id="search">
+        </div>
+        <div class="header-right">
+            <div class="cart">
+                <!-- Carrito como un botón -->
+                <button class="cart-btn" onclick="window.location.href='carrito.html'">
+                    <img src="imagenes/carito.jpg" alt="Carrito de compras">
+                </button>
+            </div>
+            <!-- Botón de registrarse redirige a la página de registro -->
+            <div class="register">
+                <button class="register-btn" onclick="window.location.href='registro.html'">Registrarse</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Sección de productos -->
+        <section class="products-section">
+            <h2 class="section-title">Novedades</h2>
+            <div class="product-card">
+                <img src="imagenes/risador ondas de sirena.jpg" alt="Producto 1">
+                <p>Rizadora Ondas De Sirena WAER</p>
+                <span>$55.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/irrigador bucal .jpg" alt="Producto 2">
+                <p>Irrigador Oral Portátil</p>
+                <span>$45.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/combo war 2 en 1.jpg" alt="Producto 3">
+                <p>Combo Waer Aguacate 2 en 1</p>
+                <span>$95.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/diademas inmantadas .jpg" alt="Producto 4">
+                <p>AirPods Max Inamntadas</p>
+                <span>$140.000</span>
+            </div>
+        </section>
+
+        <!-- Sección de Ofertas -->
+        <section class="products-section">
+            <h2 class="section-title">¡Ofertas!</h2>
+            <div class="product-card">
+                <img src="product5.jpg" alt="Producto 5">
+                <p>Hidrolavadora 6 Chorros Portátil</p>
+                <span>$110.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/irrigador bucal .jpg" alt="Producto 6">
+                <p>Irregular Oral Portátil</p>
+                <span>$45.000</span>
+            </div>
+            <div class="product-card">
+                <img src="product7.jpg" alt="Producto 7">
+                <p>Watch Onn Original Streaming</p>
+                <span>$150.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/air pods serie 4 alta .jpg" alt="Producto 8">
+                <p>AirPods Serie 4 Alta Calidad</p>
+                <span>$99.900</span>
+            </div>
+        </section>
+
+        <!-- Sección de Destacados -->
+        <section class="products-section">
+            <h2 class="section-title">Destacados</h2>
+            <div class="product-card">
+                <img src="product9.jpg" alt="Producto 9">
+                <p>Hidrolavadora 6 Chorros Portátil</p>
+                <span>$110.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/diademas inmantadas .jpg" alt="Producto 10">
+                <p>AirPods Max Inamntadas</p>
+                <span>$140.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/risador ondas de sirena.jpg" alt="Producto 11">
+                <p>Rizadora Ondas De Sirena WAER</p>
+                <span>$55.000</span>
+            </div>
+            <div class="product-card">
+                <img src="imagenes/combo war 2 en 1.jpg" alt="Producto 12">
+                <p>Combo Waer Aguacate 2 en 1</p>
+                <span>$95.000</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página con la sección de contacto -->
+    <footer>
+        <section class="categories">
+            <div class="category left">
+                <div class="category-box">
+                    <h3>Tecnología</h3>
+                    <p>Conéctate al futuro con lo último en tecnología.</p>
+                </div>
+            </div>
+            <div class="category right">
+                <div class="category-box">
+                    <h3>Juguetes</h3>
+                    <p>Haz de cada juego una aventura.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-info">
+            <p>¡Envío gratis en todas tus compras!</p>
+            <p>Paga como quieras. Recibe y paga en la puerta de tu casa.</p>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="contact-section">
+            <h3>Contacto</h3>
+            <div class="contact-info">
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/tu_instagram" target="_blank">tu_instagram</a></p>
+                <p><strong>Correo Electrónico:</strong> <a href="mailto:tu_correo@ejemplo.com">tu_correo@ejemplo.com</a></p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/123456789" target="_blank">123 456 789</a></p>
+            </div>
+        </section>
+
+        <section class="methods">
+            <p>Métodos de pago:</p>
+            <img src="visa.png" alt="Visa">
+            <img src="mastercard.png" alt="MasterCard">
+            <img src="paypal.png" alt="PayPal">
+        </section>
+    </footer>
+</body>
+</html>
